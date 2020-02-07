@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> 하이퍼 텍스트 링크(a링크) </title>
+        
+        <style>
+            a{text-decoration:none; color:#000;}
+            a:hover{ color: blue; }
+        </style>
+    </head>
+        <!-- a태그: 글자처럼 나열되는 성격-->
+        
+    <body>
+       <p>a 링크에 관해</p>
+        <!--인터넷 페이지로 연결 인터넷 사이트는 http://을 붙여야 함.-->
+        <a href="http://www.naver.com" >네이버로 이동하기</a>
+        
+        <p>
+        <!--빈 링크, 임시링크 표시 #을 붙여서 표현함-->
+        <a href="#">임시링크</a>
+        </p>
+        
+        <p>
+            <!--페이지 전환, html문서 연결-->
+            <a href="sub.html">페이지 이동</a>
+        </p>
+        <p>
+            <!--아웃룩 계정 연결 mailto라는 것을 같이 입력해주어야 함-->
+            <a href="mailto:apxkf9632@naver.com">이메일 연결</a>
+        </p>
+        
+        <p>
+            <!--title 링크에 마우스를 올렸을 때 이름이 생성-->
+            <a href="http://www.naver.com" title="네이버로 이동">네이버 사이트</a>
+        </p>
+        
+        <p>
+            <!--target: 링크의 창이 열리는 방법을 지정
+             - "_self" > 현재의 창에서 바로 전환(디폴트)
+             - "_blank" > 문서는 그대로 두고 새창으로 전환(다른 인터넷 주소, 패밀리 사이트 등을 연결할 때 사용)
+            -->
+            <a href="http://www.naver.com" target ="_blank" title="네이버로 이동">네이버 사이트(새창연결)</a>
+        </p>
+        
+        <p>
+            
+        </p>
+    </body>
+</html>
