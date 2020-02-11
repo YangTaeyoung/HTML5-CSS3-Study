@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> 분할 태그와 CSS응용 </title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            .box1{
+                width: 300px;
+                height: 100px;
+                background-color: red;
+            }
+            .box2{
+                width: 50%; /*박스의 창 넓이를 창 전체의 50% 유지 */
+                height: 100px; /*size를 부여할 때, %, px값으로 할 수 있음1*/
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    
+    <body>
+       <!--block 형식: 위에서 아래로 쌓이는 성격 공간에 대한 분할이 이루어짐-->
+        <div>html5 - web</div>
+        <div>html5 - web</div>
+        <div>html5 - web</div>
+        <div>html5 - web</div>
+        <div>html5 - web</div>
+        
+        <!-- inline형식: 글자처럼 옆으로 나열되는 성격 -->
+        <hr/>
+        <span>span-inline</span>
+        <span>span-inline</span>
+        <span>span-inline</span>
+        <span>span-inline</span>
+        <span>span-inline</span>
+        
+        <hr/>
+        
+        <div class=box1>BOX-1</div>
+        <div class=box2>BOX-2</div>
+        
+        <hr/>
+        
+        
+    </body>
+</html>
