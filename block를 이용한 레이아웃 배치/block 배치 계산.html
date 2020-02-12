@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> 분할태그를 이용한 레이아웃 설계 </title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;                
+            }
+            .box1{
+                width:200px;
+                height: 150px;
+                border: 10px solid black; /*선표현 - 선의 굵기, 스타일, 색상*/
+                padding: 30px; /*안쪽 여백 - 한자리로 입력(상, 하, 좌, 우 = 30px)*/
+                margin: 30px; /*바깥 여백 - 옵션 동일, 
+                두 자리 입력시 - 30px(상하) 30px(좌우)*/
+                float: left;
+                
+            }
+            #allbox{
+                width:340px;
+                height: 290px;
+                background-color: red;
+            }
+        </style>
+    </head>
+    
+    <body>
+       <div class id=allbox>
+            <div class="box1">
+                <h2>title-1</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                </p>
+            </div> 
+      </div>
+            
+            
+       
+    </body>
+</html>
