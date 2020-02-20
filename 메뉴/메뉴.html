@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            overflow: hidden;
+        }
+        a{
+            text-decoration: none; /*밑줄 제거*/
+            line-height: 30px; /*행간 - 줄간격의 높이(글자가 한줄일 때! 높이와 동일하게 부여시 글자 중심배치)*/
+            color: white; /*폰트 색상*/
+            font-size: 16px; /*폰트 크기*/
+            font-weight: 900; /*폰트 굵기: 900이 최대*/
+            
+            /*a링크가 자식 요소로 존재할 때 글자스타일 a태그에 직접 부여!*/
+        }
+        li{
+            list-style: none; /*리스트 형태 정하기*/
+            width: 100px;
+            height: 30px;
+            text-align: center; /*글자 좌(left),우(right), 중심(center) 배치*/
+            background-color: green; /*배경색상*/
+            float:left; /*리스트가 세로가 아닌, 가로로 출력되게 하기 위함*/
+            margin: 0px 5px; /*상하px 좌우px*/
+
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#">메일</a></li>
+        <li><a href="#">블로그</a></li>
+        <li><a href="#">카페</a></li>
+        <li><a href="#">지식in</a></li>
+        <li><a href="#">쇼핑</a></li>
+        <li><a href="#">pay</a></li>
+
+    </ul>
+</body>
+</html>
