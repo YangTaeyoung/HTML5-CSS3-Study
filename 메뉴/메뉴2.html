@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .v_menu{
+            width: 140px;
+            overflow: hidden;
+            margin: 40px;
+            border:1px solid orange;
+        }
+        li{
+            list-style: none;
+            width: 100px;
+            line-height: 30px;
+            padding: 0px 20px;
+            margin: 5px 0px;
+            background-color: aquamarine;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 13px;
+            
+        }
+        li:hover{ /* 선택자: hover >> 반응선택자(마우스를 올렸을 때)*/
+            background-color: blue; 
+        }
+        li:hover a{
+            color: white; /* li 안에 있는 (띄어쓰기=후손선택자) 그냥 a를 지정할 경우*/ 
+        }
+    </style>
+</head>
+<body>
+    <ul class = "v_menu">
+        <li><a href="#">패션의류</a></li>
+        <li><a href="#">잡화</a></li>
+        <li><a href="#">뷰티</a></li>
+        <li><a href="#">명품/보석시계</a></li>
+        <li><a href="#">스포츠/레저</a></li>
+        <li><a href="#">출산/유아동</a></li>
+        <li><a href="#">주방/생활/건강</a></li>
+    </ul>
+</body>
+</html>
