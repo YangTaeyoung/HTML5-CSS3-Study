@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+        }
+        .scrollbox1
+        {
+            width: 200px;
+            height: 200px;
+            border:2px solid #000;
+            float:left;
+            margin: 10px;
+            overflow: scroll;
+        }
+        .scrollbox2
+        {
+            width: 200px;
+            height: 200px;
+            border:2px solid #000;
+            float:left;
+            margin: 10px;
+            overflow-x:scroll;
+            overflow-y: hidden;
+        }
+        .scrollbox3
+        {
+            width: 200px;
+            height: 200px;
+            border:2px solid #000;
+            float:left;
+            margin: 10px;
+            overflow-x: hidden;
+            overflow-y:scroll ;
+        }
+    </style>
+</head>
+<body>
+    <div class ="scrollbox1">
+        <h4>scroll-x,y</h4>
+        <p><img src="Spaghetti.jpg" alt=""/></p>
+    </div>
+    <div class ="scrollbox2">
+        <h4>scroll-x</h4>
+        <p><img src="Spaghetti.jpg" alt=""/></p>
+    </div>
+    
+    <div class ="scrollbox3">
+        <h4>scroll-y</h4>
+        <p><img src="Spaghetti.jpg" alt=""/></p>
+    </div>
+</body>
+</html>
